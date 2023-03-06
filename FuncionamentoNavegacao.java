@@ -7,14 +7,18 @@ public class FuncionamentoNavegacao {
     public static void main(String[] args) {
         String origem;
         String destino;
-        String idiomaEscolhido;;
-        System.out.println("Selecione Um idioma");
-        System.out.println(" 1 - Português ");
-        System.out.println(" 2 - Baiaku de The Last of US");
-        System.out.println(" 3 - Exterminador do Futuro");
-        System.out.println(" 4 - Silvio Santos");
-        System.out.println(" 5 - Chines ");
-        System.out.println(" 6 - Inglês");
+        String idiomaEscolhido;
+        System.out.println("+-------------------------------------------+");
+        System.out.println("|            Selecione Um idioma            |");
+        System.out.println("+-------------------------------------------+");
+        System.out.println("| 1 - Português ");
+        System.out.println("| 2 - Baiaku de The Last of US");
+        System.out.println("| 3 - Exterminador do Futuro");
+        System.out.println("| 4 - Silvio Santos");
+        System.out.println("| 5 - Chines ");
+        System.out.println("| 6 - Inglês");
+        System.out.println("| >");
+
         idiomaEscolhido = capturaDeDados.nextLine();
 
         NavegacaoInterna idiomaSelecionado = new NavegacaoInterna(idiomaEscolhido);
